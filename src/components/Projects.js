@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div name='projects h-[500px]'>Projects</div>
   )
 }
 
