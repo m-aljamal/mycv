@@ -1,10 +1,11 @@
 import React from "react";
+import Container from "./Container";
 
 const CV = () => {
   return (
-    <div name="cv" className="h-[500px] bg-green-500">
+    <Container name="cv" className="h-[500px] bg-green-500">
       CV
-    </div>
+    </Container>
   );
 };
 

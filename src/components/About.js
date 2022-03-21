@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Container from "./Container";
 
 const About = () => {
   return (
-    <div name='about' className='h-[500px] bg-red-500  '>About About About</div>
-  )
-}
+    <Container name="about" className="h-[500px] bg-red-500  ">
+      About About About
+    </Container>
+  );
+};
 
-export default About 
+export default About;
