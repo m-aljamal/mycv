@@ -8,7 +8,7 @@ import {
 import { links } from "../utils/links";
 const Navbar = () => {
   return (
-    <nav className="bg-white   h-[fit-content]  ">
+    <nav className="bg-white sticky top-10 ">
       <div>
         {links.map(({ label, icon, link }) => (
           <Link
@@ -17,7 +17,7 @@ const Navbar = () => {
             activeClass="text-green-500"
             spy
             key={link}
-            className="block px-4 py-2  hover:bg-gray-200"
+            className="block px-4 py-2  hover:bg-gray-200 cursor-pointer"
           >
             {label}
           </Link>
