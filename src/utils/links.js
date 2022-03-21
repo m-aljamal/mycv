@@ -1,38 +1,20 @@
-import About from "../components/About";
-import CV from "../components/CV";
-import AboProjects from "../components/Projects";
-
-// export const links = {
-//   about: {
-//     label: "About",
-//     link: "/about",
-//     icon: "",
-//     componet: <About />,
-//   },
-//   cv: {
-//     label: "CV",
-//     link: "cv",
-//     icon: "",
-//     componet: <CV />,
-//   },
-//   projects: {
-//     label: "Projects",
-//     link: "projects",
-//     icon: "",
-//     componet: <AboProjects />,
-//   },
-// };
+import { GoPerson } from "react-icons/go";
+import { RiPagesLine } from "react-icons/ri";
+import { FaProjectDiagram } from "react-icons/fa";
 export const links = [
   {
     label: "About",
     link: "about",
+    icon: <GoPerson />,
   },
   {
     label: "CV",
     link: "cv",
+    icon: <RiPagesLine />,
   },
   {
     label: "Projects",
     link: "projects",
+    icon: <FaProjectDiagram />,
   },
 ];

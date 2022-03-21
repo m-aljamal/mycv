@@ -4,9 +4,9 @@ import CV from "../src/components/CV";
 import Projects from "../src/components/Projects";
 export default function Home() {
   return (
-    <div className="bg-gray-400">
+    <div className="bg-primary-color">
       <div className="container">
-        <div className="flex  gap-10  pt-10">
+        <div className="flex  gap-5  pt-10">
           <div>
             <Navbar />
           </div>
