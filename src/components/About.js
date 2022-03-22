@@ -3,8 +3,8 @@ import Container from "./Container";
 
 const About = () => {
   return (
-    <Container name="about" className="h-[500px] bg-red-500  ">
-      About About About
+    <Container name="about" className="  bg-red-500  ">
+      <div>About</div>
     </Container>
   );
 };
